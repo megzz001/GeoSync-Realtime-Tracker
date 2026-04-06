@@ -1,4 +1,4 @@
-# 📍 Realtime Device Tracker
+# 📍 GeoSync-Realtime-Device-Tracker
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![Express](https://img.shields.io/badge/Express.js-Backend-black)
