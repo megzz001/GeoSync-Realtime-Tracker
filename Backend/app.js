@@ -19,7 +19,11 @@ io.on("connection",function(socket){
     socket.on("send-location", function(data){
         io.emit("receive-location", { id: socket.id, ...data});
     });
-    console.log("A user connected ");  
+    console.log("A user connected "); 
+    socket.on("disconnect", function(){
+        io.emit("user-disconnected", socket.id);
+        console.log("A user disconnected");
+    });
 });
 
 app.get('/', function (req, res) {
