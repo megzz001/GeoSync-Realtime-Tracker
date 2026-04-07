@@ -72,7 +72,7 @@ project/
 ### 🔍 Zoomed Tracking
 ![Zoomed View](asset/zoomed-view.png)
 
---
+---
 
 ## 📌 Future Enhancements
 
